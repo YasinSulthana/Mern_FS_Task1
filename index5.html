@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-05</title>
+  </head>
+  <style>
+    th,
+    td,
+    table {
+      border: 2px solid black;
+      border-collapse: collapse;
+    }
+    table {
+      width: 100vh;
+    }
+    textarea {
+      height: 80px;
+      width: 360px;
+    }
+  </style>
+  <body>
+    <h1 style="color: blue">registration form</h1>
+    <table>
+      <tr>
+        <th>First Name:</th>
+        <td><input type="text" name="fn" id="fn" /></td>
+      </tr>
+      <tr>
+        <th>Last Name:</th>
+        <td><input type="text" name="ln" id="ln" /></td>
+      </tr>
+      <tr>
+        <th>Email:</th>
+        <td><input type="text" name="email" id="email" /></td>
+      </tr>
+      <tr>
+        <th>Password:</th>
+        <td><input type="password" name="pass" id="pass" /></td>
+      </tr>
+      <tr>
+        <th>Re-enter Password:</th>
+        <td><input type="password" name="repass" id="repass" /></td>
+      </tr>
+      <tr>
+        <th rowspan="2">Gender:</th>
+        <td><input type="radio" name="rd" id="rd" />Male</td>
+      </tr>
+      <tr>
+        <td><input type="radio" name="" id="" />Female</td>
+      </tr>
+      <tr>
+        <th>Phone Number:</th>
+        <td>
+          <input type="text" name="ph" id="ph" />
+        </td>
+      </tr>
+      <tr>
+        <th>Address:</th>
+        <td><textarea name="adrs" id="adrs" cols="30" rows="10"></textarea></td>
+      </tr>
+      <tr>
+        <th>State:</th>
+        <td><input type="text" name="" id="" /></td>
+      </tr>
+      <tr>
+        <th>Country:</th>
+        <td>
+          <select name="" id="">
+            <option value="Choose your country">Choose your country</option>
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="USA">USA</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <th>Languages known</th>
+        <td>
+          <input type="checkbox" />English<input type="checkbox" />Kannada<input
+            type="checkbox"
+          />Hindi<input type="checkbox" />Telugu
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="checkbox" />Hereby I declare all the given details are
+          true
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">Login to <a href="#">Ethnus</a> website</td>
+      </tr>
+    </table>
+    <button id="btn">Register</button>
+  </body>
+</html>
